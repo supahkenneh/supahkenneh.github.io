@@ -20,7 +20,7 @@ const projects = [
   {
     case: 'gimmegimme',
     name: 'Gimme Gimme',
-    description: 'Node Knockout 2018 Hackathon submission. Players create and join game rooms. Game displays a prompt where users then submit a photo matching the prompt for game points.',
+    description: 'Node Knockout 2018 Hackathon submission. Players create and join game rooms. Game displays a prompt where users then submit a photo matching the prompt for game points. Click on name to visit the website.',
     link: 'https://gimmemoar.herokuapp.com',
     github: 'https://github.com/supahkenneh/gimme-gimme',
     tech: ['React', 'Socket.io', 'IBM Watson', 'Node', 'Express'],
