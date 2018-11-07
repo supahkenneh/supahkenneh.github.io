@@ -34,7 +34,7 @@ body {
 }
 
 .headshot img {
-  height: 115px;
+  height: 150px;
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
