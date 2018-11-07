@@ -34,7 +34,7 @@ body {
 }
 
 .headshot img {
-  height: 150px;
+  height: 115px;
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
@@ -348,4 +348,82 @@ body {
 .link img {
   max-height: 100%;
   max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .name {
+    font-size: 46px;
+  }
+
+  .headshot img {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px #222;
+  }
+
+  .header-description {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-header {
+    width: 375px;
+  }
+  .header-description {
+    width: 360px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-list {
+    margin: auto 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-ul {
+    width: 100%;
+  }
+
+  .projects-container {
+    margin: auto 50%;
+    width: 100%;
+  }
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .projects-grid {
+    grid-gap: 3px;
+    grid-template-areas:  "feature"
+                          "proj-a"
+                          "proj-b"
+                          "proj-c"
+                          "proj-d"
+                          "proj-e"
+                          "proj-f"
+  }
+
+  .social-container {
+    height: 100vh;
+  }
 }
