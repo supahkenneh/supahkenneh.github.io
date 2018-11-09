@@ -37,7 +37,7 @@ const projects = [
   {
     case: 'rolodex',
     name: 'Rolodex',
-    description: 'Contact management application where useres are able to keep track of their contacts including their numbers, addresses, websites. Users are able to search through their contacts with search feature',
+    description: 'Contact management application where users are able to keep track of their contacts including their numbers, addresses, websites. Users are able to search through their contacts with search feature',
     github: 'https://github.com/supahkenneh/ng-rolodex',
     tech: ['Angular', 'Node', 'Express', 'PostgreSQL'],
     image: './assets/rolodex.gif'
