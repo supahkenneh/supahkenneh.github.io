@@ -86,7 +86,7 @@ body {
 
 .arrow-nav {
   height: 50px;
-  width: 100%;
+  width: 5%;
   margin: 30px auto;
   transition: height 300ms ease-in;
 }
